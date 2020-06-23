@@ -1,0 +1,152 @@
+.Title{
+ 
+    font-size: 50px;
+    text-align: center;
+    color: #d62828;
+    background-color: black;
+    margin: 0px;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+    color:  #d62828;
+    font-family: monospace;
+}
+nav{
+    width: 100vw;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%)
+
+}
+
+body{
+    margin: 0px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: #90e0ef;
+}
+
+.pic{
+    position: fixed;
+    
+}
+
+th, td {
+    border-bottom: 2px solid rgb(8, 8, 8);
+    color: #bb0f23;
+    text-align: cen;
+    font-size: 40px;
+  }
+  .Table_Title{
+      color:#ef233c;
+      text-align: center;
+  }
+  table{
+    
+        margin-left:auto; 
+        margin-right:auto;
+      
+  }
+
+  .Title1{
+      color: black;
+  }
+
+  .card {
+      margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .about{
+      text-align: center;
+      font-size: 20px;
+      color: ivory;
+  }
+
+  input[type=text], select, textarea {
+    
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+      color: brown ;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+  }
+
+  .bottom{
+      position: fixed;
+      bottom: 0;
+      color: brown;
+  }
+
+  .insta{
+
+    position: relative; left: 1600px;
+  }
